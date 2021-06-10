@@ -1,0 +1,18 @@
+/*Arquivo CSS*/
+
+nav {
+    background: black;
+    width: 100%;
+    display: block;
+}
+
+.imgLogo {
+    position:absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+}
+
+.ajSlide {
+    width: auto;
+}
