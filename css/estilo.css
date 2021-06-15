@@ -6,10 +6,29 @@ nav {
     position: relative;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    clear: both;
+}
+
+main {
+    width: 40%;
+    float: left;
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+aside {
+    width: 30%;
+    background-color: yellow;
+    float: right;
+}
+
 .imgLogo {
     position:absolute;
     top: 1%;
-    width: 100%;
+    width: 85%;
 }
 
 .slideAju {
