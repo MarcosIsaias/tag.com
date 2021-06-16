@@ -12,15 +12,19 @@ footer {
     clear: both;
 }
 
+section {
+    width: 40%;
+}
+
 main {
     width: 40%;
     float: left;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
 
 aside {
-    width: 30%;
+    width: 60%;
     background-color: yellow;
     float: right;
 }
