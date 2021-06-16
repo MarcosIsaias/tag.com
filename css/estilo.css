@@ -14,18 +14,20 @@ footer {
 
 section {
     width: 40%;
+    color: white;
+    font-size: 0.7em;
 }
 
 main {
     width: 40%;
     float: left;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     background-color: rgb(255, 255, 255);
 }
 
 aside {
     width: 60%;
-    background-color: yellow;
+    height: 600px;
     float: right;
 }
 
@@ -36,7 +38,17 @@ aside {
 }
 
 .slideAju {
-    padding-top: 150px; 
+    padding-top: 130px; 
     width: 100%; 
     height: 15%;
 }
+
+.textGrid {
+    background: black;
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border-radius: 1px;
+}
+
+#meulink { color: rgb(255, 255, 255); padding-left: 2%; }

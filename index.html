@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/estilo.css" rel="stylesheet">
+
     <title>Está na Tag, está no Ar!</title>
   </head>
 
@@ -48,7 +49,8 @@
           </div>
       </div>     
     </nav>
-   
+    
+   <!--Carousel, com Imagens em Destaque-->
     <header>
       <div class="slideAju">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -69,32 +71,51 @@
 
     <aside>Barra Lateral</aside>
 
+    <!--Grid com 3 colunas, para sistema de noticias em destaque-->
     <section>
       <div class="container" style="padding: 2% 2%;">
        <div class="row">
         <div class="col-md-4">
-          <img src="img/grid/facebooknot.jpg" alt="Noticia Facebook" width="80%">
+          <img class="card-img" src="img/grid/facebooknot.jpg" alt="Facebook Noticia">
+          <div class="textGrid">
+            <a href="#" id="meulink">Facebook é investigado por paises.</a>
+          </div>
         </div>
+
         <div class="col-md-4">
-          <img src="img/grid/notwitter.jpg" alt="Noticia Twitter" width="80%">
+          <img class="card-img" src="img/grid/notwitter.jpg" alt="Twitter Noticia">
+          <div class="textGrid">
+            <a href="#" id="meulink">Twitter blue é lançado oficialmente.</a>
+          </div>
         </div>
+
         <div class="col-md-4">
-          <img src="img/grid/microsoft.jpg" alt="Noticia Microsoft" width="80%">
+          <img class="card-img" src="img/grid/microsoft.jpg" alt="Microsoft Noticia">
+          <div class="textGrid">
+            <a href="#" id="meulink">Microsoft: Anuncia evento que podera,...</a>
+          </div>
         </div>
-       </div>
       </div>
     </section>
-
+    
+    <!--Conteúdo do Site-->
     <main>
       <div class="container">
-        <img src="img/conteudo/gnoticia.jpg" alt="Google" width="10%"/>
+        <img src="img/conteudo/gnoticia.png" alt="Google" width="25%"/>
         Google vai permitir que buscadores rivais apareçam de graça em dispositivos Android na Europa
+      </div>
+
+      <hr>
+
+      <div class="container">
+        <img src="img/conteudo/inoticia.png" alt="Noticia" width="25%"/>
+        Internet global sofre falha e grandes sites saem do ar
       </div>
     </main>
 
     <!--Footer com texto com cores da paleta de cor-->
     <footer>
-      <div style="padding-left: px;">
+      <div style="padding-left: 3px;">
       Sobre avanços da Tecnologia | Interação e Informação | Está na 
       <font color="red">TAG</font> está no <font color="red">AR</font>!
       </div>
