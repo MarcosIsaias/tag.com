@@ -26,23 +26,23 @@
       </center>
 
       <!--Navegador no Topo-->
-      <div class="navbar navbar-expand-lg navbar-dark">
+      <div class="navbar navbar-expand-lg navbar-dark" style="font-size: 1.2em;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Tag.com <span class="sr-only">(Página atual)</span></a>
+                <a class="nav-link" href="#" style="color: red;">Tag.com <span class="sr-only">(Página atual)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Games</a>
+                <a class="nav-link" href="#" style="color: white;">Games</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Esportes</a>
+                <a class="nav-link" href="#" style="color: white;">Esportes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Redes Sociais</a>
+                <a class="nav-link" href="#" style="color: white;">Redes Sociais</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -73,18 +73,27 @@
     </header>
 
     <aside>
-      <div class="container">
-        <div class="row">
-          <div class="col-md">
-            Uma de três colunas
-          </div>
-          <div class="col-md">
-            Uma de três colunas
-          </div>
-          <div class="col-md">  
+      <div class="row border" style="margin: 0%;">
+        <div class="col-md-4" style="padding: 2% 1%;">
+            <img class="card-img" src="img/noticias/awp.png"/>
+            <hr>
+            <img class="card-img" src="img/noticias/lolline.jpg"/>
+            <hr>
+            <img class="card-img" src="img/noticias/future.jpg"/>
+        </div>
 
-              <h6>Editores</h6>
+        <!--2 Coluna com Imagens em card de noticias-->
+        <div class="col-md-4 border-left" style="padding: 2% 1%;">
+            <img class="card-img" src="img/noticias/tesla.png"/>
+            <hr>
+            <img class="card-img" src="img/noticias/rocketleague.jpg"/>
+            <hr>
+            <img class="card-img" src="img/noticias/eua.jfif"/>
+        </div>
 
+        <!--3 Coluna com Informções do Editores e Formulario-->
+        <div class="col-md-4">
+              <h6 style="color: red;">Editores</h6>
               <div class="row">
                <div class="col-sm">
                <img class="imgEditores" src="img/avatar/av2.png"/>
@@ -104,12 +113,34 @@
                   Albrecht</p>
               </div>
             </div>
-         </div>
+
+            <h6>
+              <strong>FIQUE POR DENTRO!</strong>
+              </h6>
+            {Se inscreva e receba as nossas novidades}
+
+            <form>
+              <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Nome</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputName" placeholder="name">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Senha">
+                </div>
+              </div>
+
+
+        </div>
+      </div>
     </aside>
 
     <!--Grid com 3 colunas, para sistema de noticias em destaque-->
     <section>
-      <div class="container" style="padding: 2% 2%;">
+      <div style="padding: 2% 2%;">
        <div class="row">
         <div class="col-md-4">
           <img class="card-img" src="img/grid/facebooknot.jpg" alt="Facebook Noticia">
@@ -136,19 +167,30 @@
     
     <!--Conteúdo do Site-->
     <main>
-      <div class="container">
-        <img src="img/conteudo/gnoticia.png" alt="Google" width="25%"/>
-        <a href="#" id="linkRed">Google vai permitir que buscadores rivais 
-          apareçam de graça em dispositivos Android na Europa</a>
-      </div>
-
-      <hr>
-
-      <div class="container">
-        <img src="img/conteudo/inoticia.png" alt="Noticia" width="25%"/>
-        <a href="#" id="linkRed">Internet global sofre falha e grandes 
-          sites saem do ar</a>
-      </div>
+        <table>
+          <tr>
+            <td><img  width="100" src="img/conteudo/gnoticia.png"/></td>
+  
+            <td>
+              <a href="#" id="linkRed">Google vai permitir que buscadores rivais 
+              apareçam de graça em dispositivos Android na Europa</a>
+            </td> 
+          </tr>
+  
+        </table>
+  
+        <hr>
+  
+        <table>
+          <tr>
+            <td><img  width="100" src="img/conteudo/inoticia.png"/></td>
+  
+            <td> 
+              <a href="#" id="linkRed">Internet global sofre falha e grandes 
+              sites saem do ar</a>
+            </td> 
+          </tr>
+        </table>
     </main>
 
     <!--Footer com texto com cores da paleta de cor-->
