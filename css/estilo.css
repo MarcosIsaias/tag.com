@@ -58,3 +58,8 @@ aside {
 #meulink { color: rgb(255, 255, 255); padding-left: 2%; }
 
 #linkRed { color: rgb(255, 0, 0);}
+
+.textCenter {
+    text-align: center;
+}
+
