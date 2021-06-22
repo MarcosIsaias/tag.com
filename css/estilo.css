@@ -33,11 +33,14 @@ aside {
 .imgLogo {
     position:absolute;
     top: 1%;
-    width: 85%;
+    right: 0;
+    left: 0;
 }
 
+
+
 .carousel-auto {
-    padding-top: 130px; 
+    padding-top: 135px; 
     width: 100%; 
     height: 15%;
 }
@@ -53,7 +56,7 @@ aside {
 .bgGrid {
     background-color: black;
     position: relative;
-    opacity: 75%;
+    opacity: 95%;
     top: -7%;
     width: 100%;
 }
@@ -67,14 +70,46 @@ aside {
 
 #linkRed { color: rgb(255, 0, 0);}
 
+#linkWhite { color: rgb(255, 255, 255);}
+
+
 .textCenter {
     text-align: center;
 }
 
+/* Classes, para a area de Contatos de Redes Socias do site*/
+.imgface {
+    background-image: url(../img/redesocial/facebook.png);
+    width: 100%;
+    height: 4%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.imginstagram {
+    background-image: url(../img/redesocial/instagram.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.imgtwitter {
+    background-image: url(../img/redesocial/twitter.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/*sistema de device mobile*/
 @media screen and (max-width:480px) {
+    nav {position: none; width: 100%;}
     aside {float: none; width: 100%;}
-    .imgLogo {position: none; width: 100%;}
-    main {width: 100%; float: none;}
+    .imgLogo {position: none; top: 100%;}
+    main {width: 100%; float:none; padding: 2% 0%;}
     section {width: 100%;}
-    .carousel-auto {padding-top: none; width: 100%; height: auto;}
+    .col-md-4 {padding: 2% 0%;}
+    .carousel-auto {padding-top: none; width: 100%;}
+    .bgGrid {top: 0%; opacity: 100%;}
 }
