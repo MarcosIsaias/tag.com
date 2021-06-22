@@ -71,3 +71,10 @@ aside {
     text-align: center;
 }
 
+@media screen and (max-width:480px) {
+    aside {float: none; width: 100%;}
+    .imgLogo {position: none; width: 100%;}
+    main {width: 100%; float: none;}
+    section {width: 100%;}
+    .carousel-auto {padding-top: none; width: 100%; height: auto;}
+}
