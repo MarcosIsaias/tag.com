@@ -1,4 +1,4 @@
-# Projeto N2 do modulo Desenvilmento Web 1
+# Projeto N2 do modulo Desenvilmento Web
 WebSite - Tag.com
 - Tecnologias usadas - Html, Css, JavaScript
 - Framework - bootstrap 4
